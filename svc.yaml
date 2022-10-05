@@ -8,4 +8,4 @@ spec:
       port: 80
       #targetPort: 9376
       nodePort: 31786
-      type: NodePort
+    type: NodePort
