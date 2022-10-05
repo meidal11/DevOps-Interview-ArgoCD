@@ -10,5 +10,5 @@ RUN GO111MODULE=off CGO_ENABLED=0 GOOS=${GOOS} GOARCH=${GOARCH} go build -a -o s
 FROM ubuntu
 COPY --from=build-env /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=build-env /src/server .
-ENV PORT 8080
+ENV PORT 8000
 CMD ["./server"]
