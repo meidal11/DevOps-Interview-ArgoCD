@@ -13,7 +13,7 @@ spec:
         app: argoapp
     spec:
       containers:
-      - image: argodocker:1
+      - image: meidal11/argodocker:1
         name: argoapp
         ports:
         - containerPort: 8080
