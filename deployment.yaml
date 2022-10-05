@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: argocdgit
+  name: argoapp
 spec:
   selector:
     matchLabels:
-      app: argocdgit
+      app: argoapp
   replicas: 3
   template:
     metadata:
       labels:
-        app: argocdgit
+        app: argoapp
     spec:
       containers:
-      - name: argodocer
-        image: argodocker:1
+      - image: argodocker:1
+        name: argoapp
         ports:
         - containerPort: 8080
