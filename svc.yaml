@@ -3,9 +3,8 @@ kind: Service
 metadata:
   name: argosvc
 spec:
+  type: NodePort
   ports:
     - protocol: TCP
       port: 80
-      #targetPort: 9376
-      nodePort: 31786
-    type: NodePort
+      targetPort: 9376
