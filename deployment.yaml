@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: argoapp
+      app: default
   replicas: 3
   template:
     metadata:
       labels:
-        app: argoapp
+        app: default
     spec:
       containers:
       - image: meidal11/argodocker:1
