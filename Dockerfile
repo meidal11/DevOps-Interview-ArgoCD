@@ -12,3 +12,4 @@ COPY --from=build-env /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=build-env /src/server .
 ENV PORT 8080
 CMD ["./server"]
+#edit test
