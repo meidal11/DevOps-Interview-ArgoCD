@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: argosvc
 spec:
-  type: NodePort
-  selector:
-    app: default
+        #type: NodePort
+        #selector:
+        #app: default
   ports:
     - protocol: TCP
       port: 80
