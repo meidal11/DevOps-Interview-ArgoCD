@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: argodep
+  namespace: default
 spec:
   selector:
     matchLabels:
@@ -13,7 +14,7 @@ spec:
         app: default
     spec:
       containers:
-      - image: meidal11/argodocker:3
+      - image: ghcr.io/meidal11/devops-interview-argocd
         name: argoapp
         ports:
         - containerPort: 8080
