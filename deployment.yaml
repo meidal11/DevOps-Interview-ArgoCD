@@ -14,7 +14,7 @@ spec:
         app: default
     spec:
       containers:
-      - image: ghcr.io/meidal11/devops-interview-argocd:35
+      - image: ghcr.io/meidal11/devops-interview-argocd:35.0
         name: argoapp
         ports:
         - containerPort: 8080
