@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
         name: argoapp
-        namespace: default
+        namespace: default2
 spec:
         project: default
         source:

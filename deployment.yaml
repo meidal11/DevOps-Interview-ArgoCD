@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: argodep
-  namespace: default
+  namespace: default2
 spec:
   selector:
     matchLabels:
