@@ -2,6 +2,7 @@
 ![Build Status](https://github.com/directeam-io/DevOps-Interview-ArgoCD/actions/workflows/ci.yml/badge.svg)
 
 
+
 I would like to mention that I do not have experience hands-on with k8s, same for ArgoCD.
 and this was the first time I have actually worked with it.
 

@@ -9,6 +9,3 @@ spec:
   ports:
     - protocol: TCP
       port: 8080
-      # targetPort: 9376
-      #externalIPs:
-          #    - 1.2.4.120
